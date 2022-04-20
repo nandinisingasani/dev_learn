@@ -59,5 +59,13 @@ git push origin main
 Verify https://github.com/nandinisingasani/dev_learn.git
 
 
+## ssh type clone
 
+Added below public key under https://github.com/settings/keys
+```
+cat ~/.ssh/id_rsa.pub 
+```
 
+```
+git clone git@github.com:nandinisingasani/dev_learn.git
+```
